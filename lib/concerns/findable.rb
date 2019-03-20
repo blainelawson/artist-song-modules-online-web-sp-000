@@ -7,4 +7,5 @@ module Findable
       binding.pry
     end
   end
+
 end
