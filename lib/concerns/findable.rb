@@ -7,9 +7,4 @@ module Findable
       # binding.pry
     end
   end
-
-  module InstanceMethods
-    def to_param
-      name.downcase.gsub(' ', '-')
-    end
 end
